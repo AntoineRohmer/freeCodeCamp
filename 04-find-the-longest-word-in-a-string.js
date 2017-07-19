@@ -1,3 +1,4 @@
+//This code is copied from Rafael Rodriguez
 function findLongestWord(str) {
   return sorted = str.split(' ').sort((curr, next)=> curr.length < next.length)[0].length;
 }
